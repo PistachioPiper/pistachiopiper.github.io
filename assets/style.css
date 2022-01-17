@@ -24,8 +24,7 @@ body {
     font-size: 17px;
 }
 .navbar a:hover {
-    background: #ddd;
-    color: black;
+    color: fuchsia;
 }
 .navbar-right {
     float: right;
