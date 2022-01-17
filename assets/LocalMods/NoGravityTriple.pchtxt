@@ -1,0 +1,8 @@
+@nsobid-3CA12DFAAF9C82DA064D1698DF79CDA100000000
+
+@flag print_values
+@flag offset_shift 0x100
+
+//make triple jump go zoom
+@enabled
+0043D5BC 0000001C
