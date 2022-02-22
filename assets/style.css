@@ -23,9 +23,7 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-.navbar a:hover {
-    color: fuchsia;
-}
+
 .navbar-right {
     float: right;
     padding-right: 16px;
@@ -60,4 +58,28 @@ th, td {
 }
 th {
     text-align: left;
+}
+
+a {
+    color: lightskyblue;
+}
+
+a:visited {
+  color: lightskyblue;
+}
+
+a:hover {
+    color: hotpink;
+  }
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:visited {
+  color: white;
+}
+
+.navbar a:hover {
+    color: fuchsia;
 }
