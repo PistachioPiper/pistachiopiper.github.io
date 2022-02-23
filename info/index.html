@@ -2,16 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Other Projects-PistachioPiper</title>
+        <title>About Me-PistachioPiper</title>
         <link rel="stylesheet" href=/assets/style.css>
         <script src="https://kit.fontawesome.com/2900f66021.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/x-icon" href="/assets/pistachio1b.png">
+<!--Continue with figuring out the embeds-->
+        <meta property="og:type" content="website">
+    <!--Add image, heart or lurk emote?-->
+        <meta property="og:image" content="/assets/pistachio1b.png">
+        <meta property="og:url" content="https://www.colbyfayock.com">
     </head>
     <body>
         <div class="navbar">
             <a href="/">Home</a>
             <a href="/mods">Mods</a>
             <a href="/other">Other projects</a>
+            <a href="/info">Other projects</a>
             <div class=navbar-right>
                 <a href="https://www.speedrun.com/user/PistachioPiper" target="_blank"><i class="fas fa-trophy"></i></a>
                 <a href="https://www.twitter.com/piperdumpy" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -24,35 +30,30 @@
         <div class="wrapper">
             <div class="main">
                 <h1>
-                    Other Projects
+                    About Me
                 </h1>
                 <p>
-                    <table style="width:100%">
-                        <tr>
-                            <th>Project</th>
-                            <th>Description</th>
-                            <th>Image</th>
-                            <th>Source</th>
-                            <th>Download</th>
-                        </tr>
-                        <tr>
-                            <td rowspan="1">Bongobs Cat</td>
-                            <td>Places a cute little cat on your OBS scene! <br>
-                                I very lazily edited it to change the "feixue" option to match Osu!Standard<br> 
-                                Original by <a href="https://github.com/a1928370421">Weng Y</a>
-                            </td>
-                            <td>
-                                <img src=/assets/ProjectStills/BongobsCat.png>
-                            </td>
-                            <td>
-                                <a href="https://github.com/PistachioPiper/Bongobs-Cat-Plugin">Source</a>
-                            </td>
-                            <td>
-                                <a href="https://github.com/PistachioPiper/Bongobs-Cat-Plugin/releases/download/0.2.01/Bango.Cat.zip">Direct</a>
-                            </td>
-                        </tr>
-                    </table>
+                    things i guess, see <a href="/info">About Me</a> to learn a little about me!
                 </p>
+                <h2>
+                    My Stream 
+                </h2>
+                <p>
+                    I stream on twitch! Feel free to follow me and check out my streams! <br>
+                    I typically stream Odyssey, but will occasionally play other games! 
+                </p>
+                <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+                <div id="playerID"></div>
+                <script type="text/javascript">
+                    var options = {
+                        width: "100%",
+                        height: "100%",
+                        channel: "pistachiopiper",
+                        muted: true
+                    };
+                    var player = new Twitch.Player("playerID", options);
+                    player.setVolume(0.5);
+                </script>
             </div>
         </div>
     </body>
