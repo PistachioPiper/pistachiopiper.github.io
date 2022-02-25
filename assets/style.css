@@ -1,34 +1,48 @@
+@font-face {
+    font-family: Mario;
+    src: url(/assets/funnyfont/NewRodin.ttf);
+}
+
+@font-face {
+    font-family: Moon;
+    src: url(/assets/funnyfont/MoonGet.ttf);
+}
+
 body {
-    background-color: #575757;
+    background-color: #303030;
     color: #E0E0E0;
     height: 100%;
+    text-align: center;
+    font-family: Mario;
 }
+
 #playerID {
     width: 900px;
     height: 506px
 }
+
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #202020;
     position: fixed;
     top: 0;
     left: 0;
+    vertical-align: middle;
     width: 100%;
-}
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    font-family: Moon;
 }
 
 .navbar-right {
     float: right;
     padding-right: 16px;
 }
+
+.wrapper {
+    display: table;
+    margin: auto;
+    height: 100%;
+}
+
 .main {
     padding: 100px;
     margin-top: 30px;
@@ -36,20 +50,7 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
-.wrapper {
-    display: table;
-    margin: auto;
-    height: 100%;
-}
 
-h1,h2 {
-    color: white;
-    text-align: center;
-}
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -66,21 +67,124 @@ a {
 }
 
 a:visited {
-  color: lightskyblue;
+    color: lightskyblue;
 }
 
 a:hover {
-    color: hotpink;
-  }
+    color: fuchsia;
+}
 
 .navbar a {
     color: white;
 }
 
-.navbar a:visited {
-  color: white;
-}
-
 .navbar a:hover {
     color: fuchsia;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+#projects {
+    margin: 8px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 8px 16px 8px;
+    max-width: 48%;
+    text-align: left;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.project-video {
+    width: 100%;
+    padding:8px
+}
+
+.project-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-subtitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    margin: 0;
+}
+
+.project-links {
+    margin: 8px;
+    padding: 8px 8px 16px 8px;
+    width: calc(100% - 16px);
+    text-align: left;
+    text-align: center;
+    float: left;
+    font-size: 17px;
+    font-family: Moon;
+}
+
+.project-links a {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.project-links a:hover {
+    color: fuchsia;
+}
+
+
+@media only screen and (min-width: 2561px) {
+    .project {
+        max-width: calc(20% - 36px);
+    }
+}
+
+@media only screen and (max-width: 2560px) {
+    .project {
+        max-width: calc(25% - 36px);
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .project {
+        max-width: calc(33% - 36px);
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .project {
+        max-width: calc(50% - 36px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project {
+        max-width: 100%;
+    }
 }
