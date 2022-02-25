@@ -169,7 +169,7 @@ a:hover {
 
 @media only screen and (max-width:881px) {
     .navbar-right {
-        visibility: hidden;
+        display: none;
     }
 }
 
