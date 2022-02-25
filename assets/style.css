@@ -181,6 +181,12 @@ a:hover {
     }
 }
 
+@media only screen and (max-width:900) {
+    .navbar-right {
+        visibility: hidden;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .project {
         max-width: 100%;
