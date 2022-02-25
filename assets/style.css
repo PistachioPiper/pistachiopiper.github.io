@@ -21,6 +21,10 @@ body {
     height: 506px
 }
 
+h1 {
+    padding-top: 50px;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #202020;
@@ -41,14 +45,6 @@ body {
     display: table;
     margin: auto;
     height: 100%;
-}
-
-.main {
-    padding: 100px;
-    margin-top: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
 }
 
 table, th, td {
@@ -96,7 +92,6 @@ a:hover {
 
 #projects {
     margin: 8px;
-    margin-top: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -116,9 +111,12 @@ a:hover {
 }
 
 .project-video {
-    width: 100%;
-    padding:8px
+    width: calc(100% - 16px);
+    height: auto;
+    padding:8px;
+    border: none;
 }
+
 
 .project-title {
     margin-top: 10px;
@@ -188,3 +186,4 @@ a:hover {
         max-width: 100%;
     }
 }
+
