@@ -47,17 +47,6 @@ h1 {
     height: 100%;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 15px;
-}
-th {
-    text-align: left;
-}
-
 a {
     color: lightskyblue;
 }
@@ -88,8 +77,6 @@ a:hover {
     font-size: 17px;
 }
 
-
-
 #projects {
     margin: 8px;
     display: flex;
@@ -116,7 +103,6 @@ a:hover {
     padding:8px;
     border: none;
 }
-
 
 .project-title {
     margin-top: 10px;
@@ -181,7 +167,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width:900) {
+@media only screen and (max-width:881px) {
     .navbar-right {
         visibility: hidden;
     }
