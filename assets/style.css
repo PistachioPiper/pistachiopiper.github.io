@@ -17,8 +17,20 @@ body {
 }
 
 #playerID {
+    aspect-ratio: 16/9;
     width: 900px;
-    height: 506px
+}
+
+@media only screen and (max-width: 950px) {
+    #playerID {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    #playerID {
+        width: 100%;
+    }
 }
 
 h1 {
@@ -45,6 +57,8 @@ h1 {
     display: table;
     margin: auto;
     height: 100%;
+    text-align: center;
+
 }
 
 a {
@@ -61,6 +75,7 @@ a:hover {
 
 .navbar a {
     color: white;
+
 }
 
 .navbar a:hover {
