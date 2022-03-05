@@ -46,6 +46,7 @@ h1 {
     vertical-align: middle;
     width: 100%;
     font-family: Moon;
+    transition: 0.4s;
 }
 
 .navbar-right {
