@@ -62,7 +62,7 @@ h1 {
 }
 
 a {
-    color: lightskyblue;
+    color: lightskyblue;transition: color 0.4s;
 }
 
 a:visited {
@@ -71,7 +71,6 @@ a:visited {
 
 a:hover {
     color: fuchsia;
-    transition: 0.4s;
 }
 
 .navbar a {
@@ -81,7 +80,6 @@ a:hover {
 
 .navbar a:hover {
     color: fuchsia;
-    transition: 0.4s;
 }
 
 .navbar a {
