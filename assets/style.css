@@ -46,7 +46,6 @@ h1 {
     vertical-align: middle;
     width: 100%;
     font-family: Moon;
-    transition: 0.4s;
 }
 
 .navbar-right {
@@ -72,6 +71,7 @@ a:visited {
 
 a:hover {
     color: fuchsia;
+    transition: 0.4s;
 }
 
 .navbar a {
@@ -81,6 +81,7 @@ a:hover {
 
 .navbar a:hover {
     color: fuchsia;
+    transition: 0.4s;
 }
 
 .navbar a {
