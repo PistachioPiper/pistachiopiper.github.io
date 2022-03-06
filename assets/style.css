@@ -62,7 +62,8 @@ h1 {
 }
 
 a {
-    color: lightskyblue;transition: color 0.4s;
+    color: lightskyblue;
+    transition: color 0.4s;
 }
 
 a:visited {
