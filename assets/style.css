@@ -8,6 +8,11 @@
     src: url(/assets/funnyfont/MoonGet.ttf);
 }
 
+@font-face {
+    font-family: Pixel;
+    src: url(/assets/funnyfont/NewHiScore.ttf);
+}
+
 body {
     background-color: #303030;
     color: #E0E0E0;
