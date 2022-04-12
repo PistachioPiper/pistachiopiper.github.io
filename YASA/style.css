@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Mario;
+    src: url(/YASA/funnyfont/NewRodin.ttf);
+}
+
+@font-face {
+    font-family: Moon;
+    src: url(/YASA/funnyfont/MoonGet.ttf);
+}
+
+body {
+    background-color: #303030;
+    color: #E0E0E0;
+    height: 100%;
+    text-align: center;
+    font-family: Mario;
+    margin: 0;
+}
+
+p, ol {
+    font-size: 16px;
+    margin: 0;
+    padding:8px;
+    height: auto;
+}
+
+li {
+    margin: 18px;
+}
+
+
+h1, h2, h3 {
+    font-family: Moon;
+    margin: 70px;
+}
+
+h1 {
+    margin-top: 10vh;
+}
+
+td, th {
+    padding:16px;
+    text-align: right;
+}
+
+
+.split-names {
+    text-align: left;
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    width: 1200px;
+    height: 800px;
+    filter: blur(10px) brightness(10%) saturate(70%);
+    width: 100vw;
+    height: 100vh;
+    /*source: https://twitter.com/blazpu_/status/1507031715071795201?s=20&t=jx6Be0pNP7k2_Qy57M4PuA*/
+    background-image: url(/YASA/mona.jpg);
+}
+
+.interface-header {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 32px;
+}
+
+tablewrapper {
+    text-align: center;
+    display: table;
+    margin: auto;
+    padding: 32px 0px;
+}
+
+.drop-zone {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    font-family: Mario;
+}
+
+a {
+    color: lightskyblue;
+    transition: color 0.4s;
+}
+
+a:visited {
+    color: lightskyblue;
+}
+
+a:hover {
+    color: fuchsia;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    width: 100%;
+    font-family: Moon;
+}
+
+
+.navbar-right {
+    float: right;
+    padding-right: 16px;
+}
+
+
+.navbar a {
+    color: white;
+
+}
+
+
+.navbar a:hover {
+    color: fuchsia;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width:881px) {
+    .navbar-right {
+        display: none;
+    }
+}
+
